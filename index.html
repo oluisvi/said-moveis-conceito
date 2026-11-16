@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#18383b" />
+    <meta name="description" content="Estudo visual independente para a Said Móveis e Colchões, em Jacareí. Ambiente e conteúdo demonstrativos." />
+    <meta property="og:title" content="Said Móveis e Colchões — conceito" />
+    <meta property="og:description" content="Uma ideia de vitrine digital para conhecer a loja e planejar uma visita." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <title>Said Móveis e Colchões — conceito independente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <div class="concept-note" role="note">
+      <span>Estudo visual independente</span>
+      <span class="concept-separator" aria-hidden="true">/</span>
+      <span>Imagem e conteúdo ilustrativos · não oficial</span>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Said — início">
+        <span class="wordmark-main">SAID</span>
+        <span class="wordmark-sub">MÓVEIS <i aria-hidden="true">&</i> COLCHÕES</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#descobrir">Descobrir</a>
+        <a href="#visite">Visite a loja</a>
+      </nav>
+      <a class="header-cta" href="https://www.instagram.com/said.moveis/" aria-label="Abrir Instagram da Said">
+        <span>Fale pelo Instagram</span><span class="arrow" aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/ambiente-ilustrativo.webp" alt="Sala contemporânea com sofá, poltrona e mesa de madeira; imagem ilustrativa, não representa o estoque da loja." width="1536" height="1024" fetchpriority="high" />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Móveis e colchões · Jacareí</p>
+          <h1 id="hero-title"><span>Seu próximo</span><span><em>canto</em></span><span>começa aqui.</span></h1>
+          <p class="hero-intro">Descubra a Said, conheça as opções de perto e escolha com calma o que faz sentido para sua casa.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#visite">Como chegar <span aria-hidden="true">↓</span></a>
+            <a class="text-link text-link-light" href="https://www.instagram.com/said.moveis/">Conversar no Instagram <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>JACAREÍ</span><span>SP · BR</span></div>
+        <div class="hero-caption"><span class="caption-mark" aria-hidden="true">✳</span> Cena criada para esta apresentação — imagem ilustrativa</div>
+        <a class="hero-scroll" href="#descobrir" aria-label="Rolar para descobrir"><span class="scroll-line" aria-hidden="true"></span><span>Desça para descobrir</span></a>
+      </section>
+
+      <section class="anniversary" aria-label="História da Said">
+        <span class="anniversary-number">11</span>
+        <p><strong>anos celebrados em Jacareí</strong><br /><span>Uma marca comemorada pela loja em novembro de 2026.</span></p>
+        <span class="anniversary-thread" aria-hidden="true"></span>
+        <a href="https://www.facebook.com/reel/996381846839308/" class="anniversary-source">Ver publicação <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="discovery section-shell" id="descobrir" aria-labelledby="discovery-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark"><span class="eyebrow-dot" aria-hidden="true"></span> Encontre seu ponto de partida</p>
+          <h2 id="discovery-title">O que você quer<br /><em>descobrir</em> hoje?</h2>
+        </div>
+        <div class="discovery-body">
+          <p>Uma boa escolha começa com conversa. Conte o que você procura e veja as opções disponíveis com a equipe da loja.</p>
+          <div class="category-tabs" role="tablist" aria-label="Escolha o assunto">
+            <button class="category-tab is-active" id="tab-moveis" type="button" role="tab" aria-selected="true" aria-controls="category-panel" tabindex="0" data-category="moveis">
+              <span class="tab-index">A</span><span>Móveis</span><span class="tab-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button class="category-tab" id="tab-colchoes" type="button" role="tab" aria-selected="false" aria-controls="category-panel" tabindex="-1" data-category="colchoes">
+              <span class="tab-index">B</span><span>Colchões</span><span class="tab-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div class="category-panel" id="category-panel" role="tabpanel" aria-labelledby="tab-moveis" tabindex="0">
+            <div class="panel-icon" aria-hidden="true">
+              <svg class="icon-sofa" viewBox="0 0 120 80" fill="none"><path d="M21 43V31c0-7 5-12 12-12h54c7 0 12 5 12 12v12M15 43h90v22H15V43Zm11 22v8m68-8v8M15 43c-6 0-9 4-9 10v12h9m90-22c6 0 9 4 9 10v12h-9M37 20v23m46-23v23" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 6v10m-4-5h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg class="icon-mattress" viewBox="0 0 120 80" fill="none"><path d="M15 25h90v39H15V25Zm0 27h90M23 64v8m74-8v8M25 36h70M25 45h70" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M29 25v27m62-27v27" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <div class="panel-copy">
+              <p class="panel-kicker" id="panel-kicker">PARA SUA CASA</p>
+              <h3 id="panel-title">Móveis para viver junto.</h3>
+              <p id="panel-description">Converse com a equipe sobre as opções de móveis e consulte o que está disponível na loja.</p>
+              <a class="text-link text-link-dark" id="panel-link" href="https://www.instagram.com/said.moveis/">Perguntar pelo Instagram <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="panel-stamp" aria-hidden="true"><span>JACAREÍ</span><span>—</span><span>SP</span></div>
+          </div>
+          <p class="availability-note"><span aria-hidden="true">✳</span> Modelos, disponibilidade e condições são confirmados diretamente com a loja.</p>
+        </div>
+      </section>
+
+      <section class="visit" id="visite" aria-labelledby="visit-title">
+        <div class="visit-map" role="img" aria-label="Diagrama esquemático, sem escala, para marcar a região central de Jacareí">
+          <svg class="map-lines" viewBox="0 0 720 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <path d="M-34 130 240-38M-22 278 368 40M-34 444 534 88M-30 628 742 164M128 798 766 392M338 806 758 552" />
+            <path d="m85-24 255 828M282-30l210 842M480-22l172 814M-30 360l780 74M-26 574l766 81" />
+            <path class="map-route" d="M86 646 213 553l90 11 82-132 106-24 48-114 113-64" />
+          </svg>
+          <span class="map-stamp" aria-hidden="true">S<br />J</span>
+          <div class="map-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.7"/></svg></div>
+          <div class="map-place"><span>NO CENTRO</span><strong>Jacareí</strong><span>SÃO PAULO · BRASIL</span></div>
+          <span class="map-note">DIAGRAMA ILUSTRATIVO · SEM ESCALA</span>
+        </div>
+        <div class="visit-copy">
+          <p class="eyebrow eyebrow-dark"><span class="eyebrow-dot" aria-hidden="true"></span> Um convite para conhecer</p>
+          <h2 id="visit-title">Passe para<br /><em>sentir de perto.</em></h2>
+          <p class="visit-intro">A loja fica no Centro de Jacareí. Veja a rota e, se preferir, confirme os horários com a equipe antes de sair.</p>
+          <div class="visit-address">
+            <span class="address-marker" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <div><strong>Rua Dr. Lúcio Malta, 205</strong><span>Centro · Jacareí, SP</span></div>
+          </div>
+          <div class="hours-row"><span>Horários publicados no Instagram</span><span>Seg–sex 8h–18h<br />Sáb 8h–14h</span></div>
+          <div class="visit-actions">
+            <a class="button button-dark" href="https://www.google.com/maps/place/Said+M%C3%B3veis+e+Colch%C3%B5es/">Traçar rota <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link-dark" href="https://www.instagram.com/said.moveis/">Confirmar horário <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-band" aria-labelledby="contact-title">
+        <div class="contact-thread" aria-hidden="true"></div>
+        <div class="contact-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A conversa continua por aqui</p>
+          <h2 id="contact-title">A equipe da Said<br /><em>te recebe.</em></h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-light" href="https://www.instagram.com/said.moveis/">Chamar no Instagram <span aria-hidden="true">↗</span></a>
+          <a class="contact-secondary" href="https://wa.me/5512981905968">Ou pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <span class="contact-city" aria-hidden="true">JACAREÍ · SP</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#inicio" aria-label="Said — voltar ao início">
+        <span class="wordmark-main">SAID</span>
+        <span class="wordmark-sub">MÓVEIS <i aria-hidden="true">&</i> COLCHÕES</span>
+      </a>
+      <p>Estudo visual independente.<br />Imagens e conteúdo demonstrativos.</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/said.moveis/">Instagram <span aria-hidden="true">↗</span></a>
+        <a href="https://wa.me/5512981905968">WhatsApp <span aria-hidden="true">↗</span></a>
+        <a href="https://www.facebook.com/saidmoveisecochoes/">Facebook <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="footer-credit">CONCEITO SERVAGENCY · 2026</span>
+    </footer>
+
+    <div class="mobile-contact" aria-label="Canais da Said">
+      <a href="https://www.instagram.com/said.moveis/">Instagram <span aria-hidden="true">↗</span></a>
+      <a href="https://wa.me/5512981905968">WhatsApp <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
