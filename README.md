@@ -13,3 +13,8 @@ Vitrine demonstrativa mobile-first para apresentar uma possibilidade de presenç
 ## Transparência
 
 Conceito independente da ServAgency, não oficial e ainda não aprovado pela loja. Não há preço, modelo, condição, disponibilidade ou política comercial inventados. Consulte `ASSET_CREDITS.md`.
+
+## Área de catálogo
+
+A proposta apresenta entradas para móveis e colchões com consulta direta à equipe pelo WhatsApp. Como a loja ainda não forneceu uma lista verificada de produtos, modelos, imagens, medidas, preços ou estoque, o conceito não inventa itens: cada categoria convida a pedir as informações atualizadas.
+
